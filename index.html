@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Содержание</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230901231503">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="rootpage">
+			<h1>Верстка «lavita»</h1>
+			<div class="rootpage__info">
+				<!-- Особенности проекта -->
+			</div>
+			<h2>Готовые страницы:</h2>
+			<ol class="rootpage__list">
+				<li><a target="_blank" href="home.html">Главная</a></li>
+				<li><a target="_blank" href="service.html">Страница услуги</a></li>
+				<li><a target="_blank" href="content.html">Контентная страница</a></li>
+				<li><a target="_blank" href="contacts.html">Контакты</a></li>
+			</ol>
+			<h2>Попапы:</h2>
+			<ol class="rootpage__list">
+				<li><a target="_blank" href="home.html#" data-popup=""></a></li>
+			</ol>
+			<!-- <div class="rootpage__tnx">
+   				<h2>Спасибо за заказ!</h2>
+   				<p>Буду рад (а) хорошему отзыву.</p>
+   				<p>Обращайтесь еще!</p>
+   			</div> -->
+			<div class="rootpage__contacts">
+				<h2>Мои контакты:</h2>
+				<p>Telegram: <a href="https://t.me/fezqq">@fezqq</a></p>
+				<p>Почта: <a href="mailto:email@gmail.com">wizlvv@gmail.com</a></p>
+				<p>Почта: <a href="mailto:email@gmail.com">wizl5@mail.ru</a></p>
+			</div>
+		</div>
+		<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+		<script src="js/app.min.js?_v=20230901231503"></script>
+	</div>
+</body>
+<style>
+	@charset "UTF-8";
+	@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
+
+	*,
+	*::before,
+	*::after {
+		padding: 0px;
+		margin: 0px;
+		border: 0px;
+		box-sizing: border-box;
+	}
+
+	html,
+	body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		min-width: 320px;
+		width: 100%;
+		/* color: #fff; */
+		background-color: #323232;
+	}
+
+	body {
+		/* font-family: Montserrat; */
+		font-size: 100%;
+		line-height: 1;
+		font-size: 1rem;
+	}
+
+	.rootpage a:visited {
+		text-decoration: none;
+		color: #aaa768;
+	}
+
+	.rootpage a,
+	.rootpage__contacts a:visited {
+		text-decoration: none;
+		color: #ebe691;
+	}
+
+	.rootpage a:hover {
+		text-decoration: underline;
+	}
+
+	.rootpage ul li {
+		list-style: none;
+	}
+
+	.rootpage img {
+		vertical-align: top;
+	}
+
+	.wrapper {
+		width: 100%;
+		min-height: 100%;
+		overflow: hidden;
+	}
+
+	.rootpage {
+		padding: 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		color: #fff;
+	}
+
+	@media (max-width: 767px) {
+		.rootpage {
+			padding: 30px 15px;
+		}
+	}
+
+	.rootpage h1 {
+		color: #ebe691;
+		font-size: 2.5rem;
+		margin: 0px 0px 1.25rem 0px;
+	}
+
+	@media (max-width: 767px) {
+		.rootpage h1 {
+			font-size: 1.85rem;
+			margin: 0px 0px 1.25rem 0px;
+		}
+	}
+
+	.rootpage h2 {
+		color: #ebe691;
+		font-size: 1.25rem;
+		margin: 0px 0px 1rem 0px;
+	}
+
+	@media (max-width: 767px) {
+		.rootpage h2 {
+			font-size: 1.125rem;
+			margin: 0px 0px 1rem 0px;
+		}
+	}
+
+	.rootpage__info {
+		line-height: 140%;
+		margin: 0px 0px 1.5rem 0px;
+	}
+
+	.rootpage__list {
+		margin: 0px 0px 2.25rem 1.25rem;
+	}
+
+	.rootpage__list li:not(:last-child) {
+		margin: 0px 0px 15px 0px;
+	}
+
+	.rootpage__contacts,
+	.rootpage__tnx {
+		border-radius: 200px;
+		padding: 20px 65px;
+		line-height: 140%;
+	}
+
+	@media (max-width: 767px) {
+
+		.rootpage__contacts,
+		.rootpage__tnx {
+			border-radius: 40px;
+			padding: 20px;
+		}
+	}
+
+	.rootpage__contacts {
+		background: #32b5a4;
+	}
+
+	.rootpage__contacts a {
+		color: #ebe691;
+	}
+
+	.rootpage__tnx {
+		background: #c22d63;
+		margin: 0px 0px 1rem 0px;
+	}
+</style>
+
+</html>
